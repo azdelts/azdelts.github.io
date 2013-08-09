@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/DTD.dwt" codeOutsideHTMLIsLocked="false" -->
+<!-- DW6 -->
+<head>
+<!-- Copyright 2005 Macromedia, Inc. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="emx_nav_right.css" type="text/css" />
+<script type="text/javascript">
+<!--
+var time = 3000;
+var numofitems = 7;
+
+//menu constructor
+function menu(allitems,thisitem,startstate){ 
+  callname= "gl"+thisitem;
+  divname="subglobal"+thisitem;  
+	this.numberofmenuitems = allitems;
+	this.caller = document.getElementById(callname);
+	this.thediv = document.getElementById(divname);
+	this.thediv.style.visibility = startstate;
+}
+				 
+//menu methods
+function ehandler(event,theobj){
+  for (var i=1; i<= theobj.numberofmenuitems; i++){
+	  var shutdiv =eval( "menuitem"+i+".thediv");
+    shutdiv.style.visibility="hidden";
+	}
+	theobj.thediv.style.visibility="visible";
+}
+				
+function closesubnav(event){
+  if ((event.clientY <48)||(event.clientY > 107)){
+    for (var i=1; i<= numofitems; i++){
+      var shutdiv =eval('menuitem'+i+'.thediv');
+			shutdiv.style.visibility='hidden';
+		}  
+	}
+}
+// -->
+</script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<style type="text/css">
+<!--
+#topminibar {
+	position:absolute;
+	width:98.6%;
+	height:46px;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	visibility: visible;
+}
+#Layer1 {
+	position:absolute;
+	width:98.6%;
+	height:123px;
+	z-index:5;
+	left: -7px;
+	top: 0px;
+}
+.style1 {color: #666666}
+-->
+</style>
+</head>
+<body onmousemove="closesubnav(event);">
+<div class="skipLinks">skip to: <a href="#content">page content</a> | <a href="#pageNav">links on this page</a> | <a href="#globalNav">site navigation</a> | <a href="#siteInfo">footer (site information)</a> </div>
+<div id="masthead">
+  <h1 id="siteName"><br />
+  </h1>
+  <div id="utility"> <a href="members.htm">Contact </a> | <a href="sitemap.htm">Site Map </a> | <a href="faq.htm">FAQ</a> </div>
+   <div id="globalNav"> <img alt="" src="gblnav_left.gif" height="32" width="4" id="gnl" /> <img alt="" src="glbnav_right.gif" height="32" width="4" id="gnr" />
+    <div id="globalLink"> <a href="index.htm" id="gl1" class="glink" onmouseover="ehandler(event,menuitem1);">Home</a><a href="rush.htm" id="gl2" class="glink" onmouseover="ehandler(event,menuitem2);">Rush </a><a href="philanthropy.htm" id="gl3" class="glink" onmouseover="ehandler(event,menuitem3);">Philanthropy</a><a href="academics.htm" id="gl4" class="glink" onmouseover="ehandler(event,menuitem4);">Academics</a><a href="history.htm" id="gl5" class="glink" onmouseover="ehandler(event,menuitem5);">History</a><a href="members.htm" id="gl6" class="glink" onmouseover="ehandler(event,menuitem6);">Members</a><a href="alumni.htm" id="gl7" class="glink" onmouseover="ehandler(event,menuitem7);">Alumni</a> </div>
+    <!--end globalLinks-->
+    <form id="search" action="">
+      <input name="searchFor" type="text" size="10" />
+      <a href="">search</a>
+    </form>
+  </div>
+  <!-- end globalNav -->
+  <div id="subglobal1" class="subglobalNav"><a href="#"><br />
+  </a> </div>
+  <div id="subglobal2" class="subglobalNav"></div>
+  <div id="subglobal3" class="subglobalNav"></div>
+  <div id="subglobal4" class="subglobalNav"></div>
+  <div id="subglobal5" class="subglobalNav"></div>
+  <div id="subglobal6" class="subglobalNav"></div>
+  <div id="subglobal7" class="subglobalNav"></div>
+  <div id="subglobal8" class="subglobalNav"></div>
+</div>
+<!-- end masthead -->
+
+
+    <div id="pagecell1">
+<!-- InstanceBeginEditable name="EditRegion3" -->
+<p>
+    <!--pagecell1-->
+    <img alt="" src="tl_curve_white.gif" height="6" width="6" id="tl" /> <img alt="" src="tr_curve_white.gif" height="6" width="6" id="tr" />
+  </p>
+  <div id="breadCrumb"> <a href="/index.htm">Delta Tau Delta </a> / <a href="#">Academics</a> </div>
+  <div id="pageName">
+    <h2>Academics  </h2>
+    </div>
+  <div id="pageNav">
+    <div id="sectionLinks"> <a href="#">How can Delt help my GPA?   </a> <a href="#">What grades are required for membership? </a></div>
+    <div class="relatedLinks">
+      <h3>Contact us for more information: </h3>
+      <a href="/members.htm">
+      <ul>
+        <li>Academic Chairman</li>
+      </ul>
+      </a><ul><li><a href="/members.htm">Chapter President</a></li>
+      </ul>
+      <a href="/members.htm">[View all members] </a>
+      <p>&nbsp;</p>
+    </div>
+    <div id="advert"></div>
+  </div>
+  <div id="content">
+    <div class="feature"> <img src="academicssized.jpg" alt="" width="280" height="200" align="left" />
+      <h2> Making the Grade </h2>
+      <p>Delta Tau Delta believes that in order for its members to succeed as individuals, the fraternity must   provide an environment in which learning and growth are encouraged as a vital part of everyday life.&nbsp;</p>
+    </div>
+    <div class="story">
+      <h3>Delt Tools for Academic Success </h3>
+      <p>As a member of our chapter, there   are several key resources available to you that will help you navigate academic   life at the University of Arizona.</p>
+      <p><strong>Living In</strong><br />
+At our newly remodeled house -- located right on Greek Row -- you'll find that Sundays through Thursdays we maintain a dedicated &quot;study room   &quot; that is free from noise and distraction, making the Delt house the ideal   place to study. </p>
+      <p><strong>Director of Academic Affairs<br />
+</strong>Our Director of Academic   Affairs is in charge of our Academic Program. He is responsible for   making sure that every brother performs well in their schoolwork.&nbsp; If   a brother falls behind academically, the Director of Academic Affairs will work with the member to ensure academic success. </p>
+      <p><strong>Real Ambition </strong><br />
+At Delta Tau Delta, academics are our first priority. Let's face it: you're in college to get an   education, and we view academic excellence as a key component in any life that   attempts to exude overall excellence. </p>
+      <p><strong>Peer Mentors</strong><br />
+Essential to our academic success is the Delt &quot;Big Brother&quot; tradition, where an   older Delt member becomes a new initiates mentor. Oftentimes the Big Brother has already taken many of the same classes and turns out to be a huge asset to the new initiates classes. </p>
+      <p><strong>Past Performance</strong><br />
+        Delta Tau Delta consistently ranks among the top of all fraternities with   regards to academics. For the last 5 years, Delta Tau Delta has found itself   as a leading fraternity in terms of GPA. Nationally, our current GPA   of 2.95 places us in the top 5% of all national fraternities. </p>
+    </div>
+    <div class="story"></div>
+  </div>
+  <!-- InstanceEndEditable -->
+  <!--end content -->
+  <div id="siteInfo">
+    <div align="center"><a href="members.htm">Contact </a> | <a href="sitemap.htm">Site Map</a> | <a href="faq.htm">Frequently Asked Question</a> <span class="style1"><br />
+      Copyright &copy; 2006 Delta Tau Delta, Epsilon Epsilon Chapter Inc.<br />
+    1050 N. Cherry Avenue, Tucson, Arizona 85719 </span></div>
+  </div>
+</div>
+    <p>
+  <!--end pagecell1-->
+  <img src="topmediumbar.jpg" width="600" height="91" /><br />
+      <script type="text/javascript">
+    <!--
+      var menuitem1 = new menu(7,1,"hidden");
+			var menuitem2 = new menu(7,2,"hidden");
+			var menuitem3 = new menu(7,3,"hidden");
+			var menuitem4 = new menu(7,4,"hidden");
+			var menuitem5 = new menu(7,5,"hidden");
+			var menuitem6 = new menu(7,6,"hidden");
+			var menuitem7 = new menu(7,7,"hidden");
+    // -->
+      </script>
+</p>
+</body>
+<!-- InstanceEnd --></html>
